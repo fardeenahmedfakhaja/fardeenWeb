@@ -1,15 +1,60 @@
 .App {
-  text-align: center;
+  text-align: left;
 }
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 40vmin;
 }
+.root: {
+    flexGrow: 1,
+  }
+.media: {
+    height: 140,
+  }
 
-.App-header {
+.imgclass{
+
+        width: 150 px;
+        height: 150 px;
+}
+.f1{
+  text-align: center;
   background-color: #282c34;
-  min-height: 100vh;
+  vertical-align: middle;
+}
+.my-card {
+  flexGrow: 1;
+  background-color: dodgerblue;
+  height: 150px;
+  width: 150px;
+}
+.ad_div {
+    position: absolute;
+
+    width: 900px;
+    display: inline-block;
+    /* Center form on page horizontally & vertically */
+    top: 20%;
+    left: 25%;
+    right: 25%;
+    margin-top: -50px;
+    margin-left: -50px;
+}
+
+.ad_form {
+    width: 900px;
+    display: inline-block;
+    border-style: solid ;
+    border-color: dodgerblue;
+    border-radius: 10px;
+    border-width: thin;
+    margin: 0;
+    padding: 0;
+}
+.App-header {
+  background-color: dodgerblue;
+  min-height: 10vh;
   display: flex;
   flex-direction: column;
   align-items: center;
